@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "create-deepfear",
+	"version": "${version}",
+	"name": "Create: DeepFear",
+	"description": "this is the Official Create DeepFear mod it adds a lot off new things likea new dimension and create stuff hope you have a good time playing",
+	"authors": [
+		"RN Gaming + Babovr + ijstheeman"
+	],
+	"contact": {
+
+	},
+	"license": "MIT",
+	"icon": "assets/create-deepfear/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"deepfear.createdeepfear.CreateDeepFear"
+		],
+		"client": [
+			"deepfear.createdeepfear.CreateDeepFearClient"
+		],
+		"fabric-datagen": [
+			"deepfear.createdeepfear.CreateDeepFearDataGenerator"
+		]
+	},
+	"mixins": [
+		"create-deepfear.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.1",
+		"java": ">=21",
+		"geckolib": "*",
+		"create": "*",
+		"fabric-api": "*"
+	},
+	"suggests": {
+
+	}
+}

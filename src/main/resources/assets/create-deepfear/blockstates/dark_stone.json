@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create-deepfear:block/dark_stone"
+    }
+  }
+}
